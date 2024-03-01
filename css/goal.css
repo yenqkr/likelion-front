@@ -91,6 +91,7 @@ a {
   width: 15rem;
   margin: 0 auto; /* 가운데 정렬을 위해 좌우 마진을 자동으로 설정 */
   margin-bottom: 1.5rem;
+  color: #2a552a;
 }
 footer {
   background-color: #cdeece;
