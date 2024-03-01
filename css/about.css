@@ -11,7 +11,7 @@
   font-style: normal;
 }
 * {
-  font-family: "Pretendard-Regular";
+  font-family: "Black Han Sans", sans-serif;
 }
 body {
   background-color: #f4f4f4;
@@ -20,10 +20,15 @@ body {
   box-sizing: border-box;
 }
 header {
-  background-color: antiquewhite;
+  background-color: #cdeece;
   width: 100%;
 }
-
+.header-r {
+  display: flex;
+  h1 {
+    margin-right: 2rem;
+  }
+}
 a {
   text-decoration: none;
   color: black;
@@ -33,7 +38,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 2rem;
+  margin-left: 3rem;
   margin-right: 2rem;
 }
 .big-head > h1 {
@@ -41,35 +46,67 @@ a {
   padding: 0;
   font-size: 2rem;
 }
-.main-page {
+.about {
   text-align: center;
 }
-.introduce_text > p {
-  font-family: "Black Han Sans", sans-serif;
+.about > h1 {
+  font-size: 2.5rem;
+  color: #509f54;
+}
+.about-1 {
+  display: flex;
+  margin-bottom: 80px;
+  justify-content: center;
   margin-top: 3rem;
-  font-size: 2.2rem;
-  font-weight: 300;
-  line-height: 1em; /* 줄 간격을 1.5배로 설정 */
 }
-.emphasize {
-  font-family: "Black Han Sans", sans-serif;
-  color: white;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
-    1px 1px 0 black;
+.profile {
+  margin-right: 3rem;
+  p {
+    line-height: 0.3; /* 줄 간격을 1배로 설정 */
+    font-size: 2rem;
+    color: #509f54;
+  }
+  .part {
+    font-size: 1.6rem;
+  }
 }
-img {
-  width: 18rem;
+.profile > img {
+  width: 20rem;
   border-radius: 30px;
-  margin-bottom: 120px;
   box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.info {
+  display: flex;
+  margin-left: 3rem;
+}
+.info-detail {
+  margin-bottom: 3rem;
+  margin-right: 5rem;
+}
+.sns_img > a > img {
+  width: 1.7rem;
+}
+.info-detail > h1 {
+  color: #509f54;
+}
+.info-detail > p {
+  font-family: "Pretendard-Regular";
+  font-weight: 900;
+  color: #2a552a;
+}
+.sns_img {
+}
 footer {
-  background-color: #efb0b0;
+  background-color: #cdeece;
   color: #f4f4f4;
   text-align: center;
   padding: 1em;
   bottom: 0;
   position: fixed;
   width: 100%;
+}
+footer > p {
+  font-family: "Pretendard-Regular";
+  font-weight: 600;
 }

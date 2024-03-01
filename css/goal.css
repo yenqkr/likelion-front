@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+.black-han sans-regular {
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  font-family: "Black Han Sans", sans-serif;
+}
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #cdeece;
+  width: 100%;
+}
+.header-r {
+  display: flex;
+  h1 {
+    margin-right: 2rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.big-head {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3rem;
+  margin-right: 2rem;
+}
+.big-head > h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+.about {
+  text-align: center;
+}
+
+.goal-page {
+  text-align: center;
+}
+.goal-page > h1 {
+  font-size: 2.5rem;
+  color: #509f54;
+}
+.goals {
+  display: flex;
+  justify-content: center;
+}
+.rec {
+  background-color: #ddf2de;
+  border-radius: 50px;
+  height: auto;
+  text-align: center;
+  width: 20rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.top {
+  font-size: 1.5rem;
+  width: 15rem;
+  margin: 0 auto; /* 가운데 정렬을 위해 좌우 마진을 자동으로 설정 */
+
+  p {
+    margin-bottom: 0.8rem;
+    color: #509f54;
+  }
+}
+.goal-img {
+  img {
+    border-radius: 50px;
+  }
+}
+.text {
+  width: 15rem;
+  margin: 0 auto; /* 가운데 정렬을 위해 좌우 마진을 자동으로 설정 */
+  margin-bottom: 1.5rem;
+}
+footer {
+  background-color: #cdeece;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 1em;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+footer > p {
+  font-family: "Pretendard-Regular";
+  font-weight: 600;
+}
