@@ -29,6 +29,7 @@ header {
     margin-right: 2rem;
   }
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -46,6 +47,35 @@ a {
   padding: 0;
   font-size: 2rem;
 }
+.main-page {
+  text-align: center;
+}
+.about-page,
+.main-page,
+.goal-page {
+  height: 625px;
+}
+.introduce_text > p {
+  color: #7cc480;
+  font-family: "Black Han Sans", sans-serif;
+  margin-top: 3rem;
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 1em; /* 줄 간격을 1.5배로 설정 */
+}
+.emphasize {
+  font-family: "Black Han Sans", sans-serif;
+  color: white;
+  text-shadow: -1px -1px 0 #7cc480, 1px -1px 0 #7cc480, -1px 1px 0 #7cc480,
+    1px 1px 0 #7cc480;
+}
+.main-page > img {
+  width: 18rem;
+  border-radius: 30px;
+  margin-bottom: 120px;
+  box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .about-page {
   text-align: center;
 }
@@ -95,7 +125,47 @@ a {
   font-weight: 900;
   color: #2a552a;
 }
-.sns_img {
+.goal-page {
+  text-align: center;
+}
+.goal-page > h1 {
+  font-size: 2.5rem;
+  color: #509f54;
+}
+.goals {
+  display: flex;
+  justify-content: center;
+}
+.rec {
+  background-color: #ddf2de;
+  border-radius: 50px;
+  height: auto;
+  text-align: center;
+  width: 20rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.top {
+  font-size: 1.5rem;
+  width: 15rem;
+  margin: 0 auto; /* 가운데 정렬을 위해 좌우 마진을 자동으로 설정 */
+
+  p {
+    margin-bottom: 0.8rem;
+    color: #509f54;
+  }
+}
+.goal-img {
+  img {
+    border-radius: 50px;
+  }
+}
+.text {
+  width: 15rem;
+  margin: 0 auto; /* 가운데 정렬을 위해 좌우 마진을 자동으로 설정 */
+  margin-bottom: 1.5rem;
+  color: #2a552a;
 }
 footer {
   background-color: #cdeece;
@@ -103,8 +173,8 @@ footer {
   text-align: center;
   padding: 1em;
   bottom: 0;
-  position: fixed;
-  width: 100%;
+  /* position: fixed; */
+  /* width: 100%; */
 }
 footer > p {
   font-family: "Pretendard-Regular";
